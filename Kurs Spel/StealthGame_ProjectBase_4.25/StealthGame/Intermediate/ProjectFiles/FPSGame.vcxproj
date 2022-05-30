@@ -272,6 +272,7 @@
     <AdditionalOptions>/std:c++14</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="Blackhole.cpp" />
     <ClInclude Include="Blackhole.h" />
     <None Include="..\..\FPSGame.uproject" />
     <None Include="..\..\Source\FPSGame.Target.cs" />

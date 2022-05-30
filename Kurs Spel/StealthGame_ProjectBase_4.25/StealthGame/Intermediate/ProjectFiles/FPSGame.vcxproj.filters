@@ -81,5 +81,8 @@
     <ClCompile Include="..\..\Source\FPSGame\Private\FPSObjectivActor.cpp">
       <Filter>Source\FPSGame\Private</Filter>
     </ClCompile>
+    <ClCompile Include="Blackhole.cpp">
+      <Filter>Source\FPSGame\Private</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

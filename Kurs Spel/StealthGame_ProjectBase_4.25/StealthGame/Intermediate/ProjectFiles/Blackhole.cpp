@@ -13,3 +13,8 @@ void ABlackholeActor::BeginPlay()
 {
 
 }
+
+void ABlackholeActor::NotifyActorBeginOverlap(AActor* OtherActor)
+{
+
+}

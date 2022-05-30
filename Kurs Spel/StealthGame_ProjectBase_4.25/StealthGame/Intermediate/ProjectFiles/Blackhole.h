@@ -24,4 +24,7 @@ protected:
 		USphereComponent* SphereComp;
 
 	virtual void BeginPlay() override;
+
+public:
+	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
 };
