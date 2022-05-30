@@ -1,5 +1,5 @@
-C:\Users\Hugga\Desktop\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
+C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Hugga\Desktop\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Source\FPSGame/Public/FPSObjectivActor.h
-C:\Users\Hugga\Desktop\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSObjectivActor.generated.h
+C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Source\FPSGame/Public/FPSObjectivActor.h
+C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSObjectivActor.generated.h

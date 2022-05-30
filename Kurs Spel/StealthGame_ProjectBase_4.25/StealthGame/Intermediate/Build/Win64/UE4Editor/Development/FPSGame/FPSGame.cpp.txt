@@ -1,2 +1,2 @@
-C:\Users\Hugga\Desktop\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
-C:\Users\Hugga\Desktop\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Source\FPSGame\FPSGame.h
+C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
+C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Source\FPSGame\FPSGame.h

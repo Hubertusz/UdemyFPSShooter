@@ -1,6 +1,6 @@
-C:\Users\Hugga\Desktop\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
-C:\Users\Hugga\Desktop\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Source\FPSGame\Public\FPSProjectile.h
-C:\Users\Hugga\Desktop\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSProjectile.generated.h
+C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
+C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Source\FPSGame\Public\FPSProjectile.h
+C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSProjectile.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h

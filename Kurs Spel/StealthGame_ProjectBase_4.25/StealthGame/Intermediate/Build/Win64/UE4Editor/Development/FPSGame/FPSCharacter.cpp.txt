@@ -1,12 +1,12 @@
-C:\Users\Hugga\Desktop\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
-C:\Users\Hugga\Desktop\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Source\FPSGame\Public\FPSCharacter.h
+C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
+C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Source\FPSGame\Public\FPSCharacter.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\Hugga\Desktop\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSCharacter.generated.h
-C:\Users\Hugga\Desktop\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Source\FPSGame\Public\FPSProjectile.h
-C:\Users\Hugga\Desktop\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSProjectile.generated.h
+C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSCharacter.generated.h
+C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Source\FPSGame\Public\FPSProjectile.h
+C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSProjectile.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
