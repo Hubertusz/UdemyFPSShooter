@@ -1,7 +1,4 @@
-﻿  Creating makefile for FPSGameEditor (Build.version is newer)
-  Parsing headers for FPSGameEditor
-    Running UnrealHeaderTool "C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\FPSGame.uproject" "C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\FPSGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Hugga\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for FPSGameEditor in 17,0576488 seconds
+﻿  Creating makefile for FPSGameEditor (game project files are newer)
   Building FPSGameEditor...
   Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   [Upgrade]
@@ -11,25 +8,24 @@
   [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
   [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in FPSGameEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
   [Upgrade]
-  Building 17 actions with 6 processes...
-    [1/17] Default.rc2
-    [2/17] SharedPCH.Engine.cpp
-    [3/17] FPSProjectile.cpp
-    [4/17] FPSCharacter.gen.cpp
-    [5/17] FPSGameMode.cpp
-    [6/17] FPSHUD.cpp
-    [7/17] FPSObjectivActor.cpp
-    [8/17] FPSCharacter.cpp
-    [9/17] FPSGameMode.gen.cpp
-    [10/17] FPSHUD.gen.cpp
-    [11/17] FPSGame.init.gen.cpp
-    [12/17] FPSObjectivActor.gen.cpp
-    [13/17] FPSProjectile.gen.cpp
-    [14/17] FPSGame.cpp
-    [15/17] UE4Editor-FPSGame.lib
+  Building 16 actions with 6 processes...
+    [1/16] SharedPCH.Engine.cpp
+    [2/16] FPSGame.init.gen.cpp
+    [3/16] FPSProjectile.cpp
+    [4/16] FPSObjectivActor.gen.cpp
+    [5/16] FPSHUD.gen.cpp
+    [6/16] FPSGameMode.gen.cpp
+    [7/16] FPSCharacter.gen.cpp
+    [8/16] FPSGame.cpp
+    [9/16] FPSHUD.cpp
+    [10/16] FPSObjectivActor.cpp
+    [11/16] FPSProjectile.gen.cpp
+    [12/16] FPSGameMode.cpp
+    [13/16] FPSCharacter.cpp
+    [14/16] UE4Editor-FPSGame.lib
        Creating library C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame.lib and object C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame.exp
-    [16/17] UE4Editor-FPSGame.dll
+    [15/16] UE4Editor-FPSGame.dll
        Creating library C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame.suppressed.lib and object C:\Users\Hugga\Documents\GitHub\UdemyFPSShooter\Kurs Spel\StealthGame_ProjectBase_4.25\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame.suppressed.exp
-    [17/17] FPSGameEditor.target
-  Total time in Parallel executor: 23,46 seconds
-  Total execution time: 50,09 seconds
+    [16/16] FPSGameEditor.target
+  Total time in Parallel executor: 23,02 seconds
+  Total execution time: 24,56 seconds

@@ -23,6 +23,8 @@ protected:
 	UPROPERTY(VisibleAnywhere, Category = "Components")
 		USphereComponent* SphereComp;
 
+	void Blackhole();
+
 	virtual void BeginPlay() override;
 
 public:

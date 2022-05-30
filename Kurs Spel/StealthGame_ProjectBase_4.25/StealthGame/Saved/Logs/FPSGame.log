@@ -1,8 +1,8 @@
-﻿Log file open, 05/30/22 16:55:14
+﻿Log file open, 05/30/22 21:44:26
 LogInit: Display: Running engine for game: FPSGame
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.788761
+LogStats: Stats thread started at 0.641617
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -194,557 +194,489 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2022.05.30-14.55.15:965][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2022.05.30-14.55.15:965][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2022.05.30-14.55.15:965][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Engine.ini]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Engine.ini]
-[2022.05.30-14.55.15:966][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Engine.ini]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Engine.ini]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2022.05.30-14.55.15:966][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Engine.ini]
-[2022.05.30-14.55.15:967][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Engine.ini]
-[2022.05.30-14.55.15:973][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.30-14.55.15:973][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2022.05.30-14.55.15:973][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2022.05.30-14.55.15:973][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.30-14.55.15:973][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2022.05.30-14.55.15:973][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.30-14.55.15:973][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2022.05.30-14.55.15:974][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2022.05.30-14.55.15:975][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2022.05.30-14.55.15:976][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2022.05.30-14.55.15:977][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2022.05.30-14.55.15:977][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2022.05.30-14.55.15:977][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2022.05.30-14.55.15:977][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2022.05.30-14.55.15:977][  0]LogInit: Selected Device Profile: [Windows]
-[2022.05.30-14.55.15:977][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2022.05.30-14.55.15:978][  0]LogHAL: Display: Platform has ~ 16 GB [17112272896 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2022.05.30-14.55.15:978][  0]LogInit: Going up to parent DeviceProfile []
-[2022.05.30-14.55.15:978][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.30-14.55.15:978][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2022.05.30-14.55.15:978][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2022.05.30-14.55.15:978][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.30-14.55.15:978][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2022.05.30-14.55.15:978][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.30-14.55.15:978][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2022.05.30-14.55.15:978][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2022.05.30-14.55.15:978][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2022.05.30-14.55.15:979][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2022.05.30-14.55.15:980][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2022.05.30-14.55.15:981][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2022.05.30-14.55.15:982][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2022.05.30-14.55.15:982][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2022.05.30-14.55.15:982][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2022.05.30-14.55.15:982][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Engine.ini]
-[2022.05.30-14.55.15:982][  0]LogInit: Computer: DESKTOP-CKA4IFT
-[2022.05.30-14.55.15:982][  0]LogInit: User: Hugga
-[2022.05.30-14.55.15:982][  0]LogInit: CPU Page size=4096, Cores=6
-[2022.05.30-14.55.15:982][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2022.05.30-14.55.15:982][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2022.05.30-14.55.15:982][  0]LogMemory: Platform Memory Stats for Windows
-[2022.05.30-14.55.15:982][  0]LogMemory: Process Physical Memory: 115.04 MB used, 115.04 MB peak
-[2022.05.30-14.55.15:982][  0]LogMemory: Process Virtual Memory: 95.42 MB used, 95.42 MB peak
-[2022.05.30-14.55.15:983][  0]LogMemory: Physical Memory: 9292.99 MB used,  7026.54 MB free, 16319.54 MB total
-[2022.05.30-14.55.15:983][  0]LogMemory: Virtual Memory: 5139.50 MB used,  134212592.00 MB free, 134217728.00 MB total
-[2022.05.30-14.55.16:004][  0]LogWindows: WindowsPlatformFeatures enabled
-[2022.05.30-14.55.16:438][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2022.05.30-14.55.16:439][  0]LogInit: Using OS detected language (sv-SE).
-[2022.05.30-14.55.16:439][  0]LogInit: Using OS detected locale (sv-SE).
-[2022.05.30-14.55.16:453][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
-[2022.05.30-14.55.16:714][  0]LogInit: Setting process to per monitor DPI aware
-[2022.05.30-14.55.16:812][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2022.05.30-14.55.16:812][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2022.05.30-14.55.19:080][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2022.05.30-14.55.19:080][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2022.05.30-14.55.19:080][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2022.05.30-14.55.19:080][  0]LogD3D11RHI: D3D11 adapters:
-[2022.05.30-14.55.19:191][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
-[2022.05.30-14.55.19:191][  0]LogD3D11RHI:       8031/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2022.05.30-14.55.19:197][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2022.05.30-14.55.19:197][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2022.05.30-14.55.19:197][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2022.05.30-14.55.19:203][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2022.05.30-14.55.19:204][  0]LogD3D11RHI:     GPU DeviceId: 0x1f07 (for the marketing name, search the web for "GPU Device Id")
-[2022.05.30-14.55.19:204][  0]LogWindows: EnumDisplayDevices:
-[2022.05.30-14.55.19:204][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
-[2022.05.30-14.55.19:204][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:1)
-[2022.05.30-14.55.19:204][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
-[2022.05.30-14.55.19:204][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
-[2022.05.30-14.55.19:205][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2022.05.30-14.55.19:205][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
-[2022.05.30-14.55.19:205][  0]LogD3D11RHI:   Driver Version: 466.63 (internal:27.21.14.6663, unified:466.63)
-[2022.05.30-14.55.19:205][  0]LogD3D11RHI:      Driver Date: 5-27-2021
-[2022.05.30-14.55.19:205][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
-[2022.05.30-14.55.19:282][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2022.05.30-14.55.19:282][  0]LogD3D11RHI: Async texture creation enabled
-[2022.05.30-14.55.19:282][  0]LogD3D11RHI: Array index from any shader is supported
-[2022.05.30-14.55.19:310][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2022.05.30-14.55.19:556][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2022.05.30-14.55.19:591][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2022.05.30-14.55.19:591][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2022.05.30-14.55.19:591][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2022.05.30-14.55.19:591][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2022.05.30-14.55.19:591][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2022.05.30-14.55.19:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2022.05.30-14.55.19:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2022.05.30-14.55.19:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2022.05.30-14.55.19:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2022.05.30-14.55.19:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2022.05.30-14.55.19:661][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2022.05.30-14.55.19:661][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2022.05.30-14.55.19:686][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2022.05.30-14.55.19:709][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2022.05.30-14.55.19:733][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2022.05.30-14.55.19:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2022.05.30-14.55.19:779][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2022.05.30-14.55.19:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2022.05.30-14.55.19:826][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2022.05.30-14.55.19:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2022.05.30-14.55.19:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2022.05.30-14.55.19:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2022.05.30-14.55.19:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2022.05.30-14.55.19:918][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2022.05.30-14.55.19:945][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2022.05.30-14.55.19:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2022.05.30-14.55.19:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2022.05.30-14.55.19:993][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2022.05.30-14.55.20:065][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2022.05.30-14.55.20:603][  0]LogShaderCompilers: Guid format shader working directory is -68 characters bigger than the processId version (../../../../../../Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Intermediate/Shaders/WorkingDirectory/36676/).
-[2022.05.30-14.55.20:603][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Hugga/AppData/Local/Temp/UnrealShaderWorkingDir/564DFDE545B7401A0DA19D88D61D9A24/'.
-[2022.05.30-14.55.20:604][  0]LogXGEController: Cleaning working directory: C:/Users/Hugga/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2022.05.30-14.55.20:604][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2022.05.30-14.55.20:604][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2022.05.30-14.55.20:604][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2022.05.30-14.55.23:034][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2022.05.30-14.55.23:124][  0]LogDerivedDataCache: Loaded boot cache 0.09s 106MB C:/Users/Hugga/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2022.05.30-14.55.23:124][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Hugga/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2022.05.30-14.55.23:124][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2022.05.30-14.55.23:124][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2022.05.30-14.55.23:125][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2022.05.30-14.55.23:125][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2022.05.30-14.55.23:140][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2022.05.30-14.55.23:140][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2022.05.30-14.55.23:140][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2022.05.30-14.55.23:143][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Hugga/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2022.05.30-14.55.23:143][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2022.05.30-14.55.23:143][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2022.05.30-14.55.23:189][  0]LogSlate: Using FreeType 2.10.0
-[2022.05.30-14.55.23:196][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.05.30-14.55.23:244][  0]LogAssetRegistry: FAssetRegistry took 0.0056 seconds to start up
-[2022.05.30-14.55.23:494][  0]LogInit: Selected Device Profile: [Windows]
-[2022.05.30-14.55.23:944][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2022.05.30-14.55.23:945][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2022.05.30-14.55.23:945][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2022.05.30-14.55.23:945][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2022.05.30-14.55.23:945][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2022.05.30-14.55.24:008][  0]LogNetVersion: FPSGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1304077534)
-[2022.05.30-14.55.25:141][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000289EC5C2980), frame # 0
-[2022.05.30-14.55.25:141][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000289EC3FFB00), frame # 0
-[2022.05.30-14.55.25:144][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000289EC46DC00), frame # 0
-[2022.05.30-14.55.25:206][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.034652 seconds
-[2022.05.30-14.55.25:212][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2022.05.30-14.55.25:212][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2022.05.30-14.55.25:213][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2022.05.30-14.55.27:054][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2022.05.30-14.55.27:077][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2022.05.30-14.55.27:367][  0]LogMaterial: Display: Missing cached shader map for material M_FPGun, compiling. 
-[2022.05.30-14.55.27:409][  0]LogMaterial: Display: Missing cached shader map for material M_PlayerArms, compiling. 
-[2022.05.30-14.55.27:426][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 39
-[2022.05.30-14.55.27:426][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
-[2022.05.30-14.55.27:426][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 19
-[2022.05.30-14.55.27:426][  0]LogMaterial: Display: Missing cached shader map for material M_Projectile, compiling. 
-[2022.05.30-14.55.27:728][  0]SourceControl: Source control is disabled
-[2022.05.30-14.55.27:728][  0]SourceControl: Source control is disabled
-[2022.05.30-14.55.27:756][  0]SourceControl: Source control is disabled
-[2022.05.30-14.55.27:779][  0]SourceControl: Source control is disabled
-[2022.05.30-14.55.27:824][  0]SourceControl: Source control is disabled
-[2022.05.30-14.55.29:333][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2022.05.30-14.55.29:462][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2022.05.30-14.55.29:463][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2022.05.30-14.55.29:712][  0]LogOcInput: OculusInput pre-init called
-[2022.05.30-14.55.29:763][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2022.05.30-14.55.29:763][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2022.05.30-14.55.30:036][  0]LogEngine: Initializing Engine...
-[2022.05.30-14.55.30:039][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2022.05.30-14.55.30:039][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2022.05.30-14.55.30:042][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
-[2022.05.30-14.55.30:361][  0]LogInit: Initializing FReadOnlyCVARCache
-[2022.05.30-14.55.30:418][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 63
-[2022.05.30-14.55.30:418][  0]LogAIModule: Creating AISystem for world Untitled
-[2022.05.30-14.55.30:418][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000289F25A4C00), frame # 0
-[2022.05.30-14.55.30:418][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000289F25E0CC0), frame # 0
-[2022.05.30-14.55.30:451][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2022.05.30-14.55.30:451][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2022.05.30-14.55.30:451][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2022.05.30-14.55.30:451][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2022.05.30-14.55.30:451][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2022.05.30-14.55.30:451][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2022.05.30-14.55.30:451][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2022.05.30-14.55.30:451][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2022.05.30-14.55.30:453][  0]LogAudio: Display: Using built-in audio occlusion.
-[2022.05.30-14.55.30:453][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2022.05.30-14.55.30:483][  0]LogAudioMixer: Display: 0: FrontLeft
-[2022.05.30-14.55.30:483][  0]LogAudioMixer: Display: 1: FrontRight
-[2022.05.30-14.55.30:552][  0]LogAudioMixer: Display: Using Audio Device Hörlurar på headset (GameDAC Chat)
-[2022.05.30-14.55.30:553][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2022.05.30-14.55.30:575][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2022.05.30-14.55.30:575][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2022.05.30-14.55.30:578][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2022.05.30-14.55.30:581][  0]LogInit: FAudioDevice initialized.
-[2022.05.30-14.55.30:584][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2022.05.30-14.55.30:643][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 53
-[2022.05.30-14.55.30:643][  0]LogDerivedDataCache: Saved boot cache 0.06s 125MB C:/Users/Hugga/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2022.05.30-14.55.30:649][  0]LogInit: Texture streaming: Enabled
-[2022.05.30-14.55.30:731][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 43
-[2022.05.30-14.55.30:731][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2022.05.30-14.55.30:731][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2022.05.30-14.55.30:734][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2022.05.30-14.55.30:821][  0]LogInit: Transaction tracking system initialized
-[2022.05.30-14.55.30:969][  0]BlueprintLog: New page: Editor Load
-[2022.05.30-14.55.31:448][  0]LocalizationService: Localization service is disabled
-[2022.05.30-14.55.32:243][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2022.05.30-14.55.32:243][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Content/' took 0.00s
-[2022.05.30-14.55.32:243][  0]LogCook: Display: Mobile HDR setting 1
-[2022.05.30-14.55.33:319][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 33
-[2022.05.30-14.55.33:319][  0]SourceControl: Source control is disabled
-[2022.05.30-14.55.33:319][  0]LogUnrealEdMisc: Loading editor; pre map load, took 20.142
-[2022.05.30-14.55.33:321][  0]LightingResults: New page: Lighting Build
-[2022.05.30-14.55.33:327][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2022.05.30-14.55.33:329][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2022.05.30-14.55.33:330][  0]MapCheck: New page: Map Check
-[2022.05.30-14.55.33:330][  0]LightingResults: New page: Lighting Build
-[2022.05.30-14.55.33:352][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000289F25A4C00), frame # 0
-[2022.05.30-14.55.33:352][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000289F25E0CC0), frame # 0
-[2022.05.30-14.55.33:354][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
-[2022.05.30-14.55.33:474][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 23
-[2022.05.30-14.55.33:474][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
-[2022.05.30-14.55.33:474][  0]LogTexture: Display: Building textures: T_Smoke2_Tile (AutoDXT, 256X256)
-[2022.05.30-14.55.33:474][  0]LogTexture: Display: Building textures: round_mask (AutoDXT, 256X256)
-[2022.05.30-14.55.33:515][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
-[2022.05.30-14.55.33:517][  0]LogMaterial: Display: Missing cached shader map for material AntiAliasedTextMaterialTranslucent_Glow, compiling. 
-[2022.05.30-14.55.33:547][  0]LogStaticMesh: Building static mesh SM_plane_pivot_down...
-[2022.05.30-14.55.33:548][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Effects/SM_plane_pivot_down.SM_plane_pivot_down
-[2022.05.30-14.55.33:567][  0]LogMaterial: Display: Missing cached shader map for material m_flare_03, compiling. 
-[2022.05.30-14.55.33:583][  0]LogMaterial: Display: Missing cached shader map for material M_wind_swirl_02, compiling. 
-[2022.05.30-14.55.33:599][  0]LogMaterial: Display: Missing cached shader map for material gold_ore_effect, compiling. 
-[2022.05.30-14.55.33:613][  0]LogMaterial: Display: Missing cached shader map for material Coin2, compiling. 
-[2022.05.30-14.55.33:627][  0]LogMaterial: Display: Missing cached shader map for material M_BlockoutSimple, compiling. 
-[2022.05.30-14.55.33:653][  0]LogMaterial: Display: Missing cached shader map for material M_BlockoutSimple, compiling. 
-[2022.05.30-14.55.33:666][  0]LogMaterial: Display: Missing cached shader map for material M_Cube, compiling. 
-[2022.05.30-14.55.33:674][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2022.05.30-14.55.33:674][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000289E2F0FE00), frame # 0
-[2022.05.30-14.55.33:675][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000289E517AE80), frame # 0
-[2022.05.30-14.55.33:737][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2022.05.30-14.55.33:752][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
-[2022.05.30-14.55.33:754][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2022.05.30-14.55.33:755][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,593ms to complete.
-[2022.05.30-14.55.33:755][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.435
-[2022.05.30-14.55.33:780][  0]LogUnrealEdMisc: Total Editor Startup Time, took 20.603
-[2022.05.30-14.55.33:948][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.05.30-14.55.33:955][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.05.30-14.55.33:962][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.05.30-14.55.33:969][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.05.30-14.55.34:002][  0]LogCollectionManager: Loaded 0 collections in 0.001692 seconds
-[2022.05.30-14.55.34:044][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Collections/' took 0.00s
-[2022.05.30-14.55.34:044][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Content/Developers/Hugga/Collections/' took 0.00s
-[2022.05.30-14.55.34:044][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Content/Collections/' took 0.00s
-[2022.05.30-14.55.34:044][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 3432 classes and 824 folders.
-[2022.05.30-14.55.34:059][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2022.05.30-14.55.34:384][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2022.05.30-14.55.34:395][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 2 classes and 0 folders.
-[2022.05.30-14.55.34:544][  0]LogSlate: Took 0.004524 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2022.05.30-14.55.34:552][  0]LogSlate: Took 0.004735 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2022.05.30-14.55.34:566][  0]LogSlate: Took 0.005063 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2022.05.30-14.55.34:686][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2022.05.30-14.55.35:348][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2022.05.30-14.55.35:348][  0]LogLoad: (Engine Initialization) Total time: 22.17 seconds
-[2022.05.30-14.55.35:348][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2022.05.30-14.55.35:393][  0]LogAssetRegistry: Asset discovery search completed in 12.1510 seconds
-[2022.05.30-14.55.35:399][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000134 seconds (updated 0 objects)
-[2022.05.30-14.55.35:405][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2022.05.30-14.55.35:472][  0]LogSlate: Took 0.004806 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2022.05.30-14.55.35:911][  3]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 250
-[2022.05.30-14.55.35:921][  3]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 240
-[2022.05.30-14.55.37:760][158]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 230
-[2022.05.30-14.55.38:616][251]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 220
-[2022.05.30-14.55.40:501][477]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 210
-[2022.05.30-14.55.41:252][567]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 200
-[2022.05.30-14.55.43:188][798]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 190
-[2022.05.30-14.55.43:402][822]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 180
-[2022.05.30-14.55.45:313][ 51]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 170
-[2022.05.30-14.55.45:423][ 63]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 160
-[2022.05.30-14.55.47:110][265]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 150
-[2022.05.30-14.55.47:584][322]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 140
-[2022.05.30-14.55.49:303][528]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 130
-[2022.05.30-14.55.49:704][574]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 120
-[2022.05.30-14.55.51:099][711]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 110
-[2022.05.30-14.55.52:301][854]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 100
-[2022.05.30-14.55.53:717][ 12]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 90
-[2022.05.30-14.55.54:631][120]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 80
-[2022.05.30-14.55.55:750][251]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 70
-[2022.05.30-14.55.56:972][396]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 60
-[2022.05.30-14.55.58:252][548]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 50
-[2022.05.30-14.56.00:721][844]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 40
-[2022.05.30-14.56.01:222][904]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
-[2022.05.30-14.56.04:163][257]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
-[2022.05.30-14.56.04:700][320]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
-[2022.05.30-14.56.06:826][575]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
-[2022.05.30-14.56.06:859][578]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
-[2022.05.30-14.56.14:902][516]LogTemp: Repeating last play command: Selected Viewport
-[2022.05.30-14.56.14:912][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.05.30-14.56.14:922][516]PIE: New page: PIE session: FirstPersonExampleMap (30 maj 2022 18:56:14)
-[2022.05.30-14.56.14:926][516]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2022.05.30-14.56.14:930][516]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2022.05.30-14.56.14:930][516]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
-[2022.05.30-14.56.14:946][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016285s)
-[2022.05.30-14.56.14:948][516]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2022.05.30-14.56.14:948][516]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000289E5165C00), frame # 4516
-[2022.05.30-14.56.14:948][516]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000289DAA4EC00), frame # 4516
-[2022.05.30-14.56.14:948][516]LogPlayLevel: PIE: World Init took: (0.001628s)
-[2022.05.30-14.56.14:949][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018581s)
-[2022.05.30-14.56.14:957][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
-[2022.05.30-14.56.14:960][516]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2022.05.30-14.56.14:960][516]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2022.05.30-14.56.14:960][516]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2022.05.30-14.56.14:960][516]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2022.05.30-14.56.14:960][516]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2022.05.30-14.56.14:960][516]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2022.05.30-14.56.14:960][516]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2022.05.30-14.56.14:960][516]LogAudio: Display: AudioDevice MaxSources: 32
-[2022.05.30-14.56.14:961][516]LogAudio: Display: Using built-in audio occlusion.
-[2022.05.30-14.56.14:961][516]LogAudioMixer: Display: Initializing audio mixer.
-[2022.05.30-14.56.14:964][516]LogAudioMixer: Display: 0: FrontLeft
-[2022.05.30-14.56.14:964][516]LogAudioMixer: Display: 1: FrontRight
-[2022.05.30-14.56.14:987][516]LogAudioMixer: Display: Using Audio Device Hörlurar på headset (GameDAC Chat)
-[2022.05.30-14.56.14:987][516]LogAudioMixer: Display: Initializing Sound Submixes...
-[2022.05.30-14.56.14:987][516]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2022.05.30-14.56.14:987][516]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2022.05.30-14.56.14:987][516]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2022.05.30-14.56.15:001][516]LogInit: FAudioDevice initialized.
-[2022.05.30-14.56.15:013][516]LogLoad: Game class is 'BP_Gamemode_C'
-[2022.05.30-14.56.15:019][516]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.05.30-16.56.15
-[2022.05.30-14.56.15:019][516]LogWorld: Bringing up level for play took: 0.002221
-[2022.05.30-14.56.15:020][516]LogOnline: OSS: Creating online subsystem instance for: :Context_4
-[2022.05.30-14.56.15:031][516]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2022.05.30-14.56.15:045][516]PIE: Server logged in
-[2022.05.30-14.56.15:047][516]PIE: Play in editor total start time 0,137 seconds.
-[2022.05.30-14.56.33:498][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.05.30-14.56.33:498][711]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
-[2022.05.30-14.56.33:499][711]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2022.05.30-14.56.33:500][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2022.05.30-14.56.33:514][711]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2022.05.30-14.56.33:515][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2022.05.30-14.56.33:561][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.05.30-14.56.33:563][711]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000289E5165C00), frame # 6711
-[2022.05.30-14.56.33:563][711]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000289DAA4EC00), frame # 6711
-[2022.05.30-14.56.33:564][711]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
-[2022.05.30-14.56.33:583][712]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.05.30-19.44.26:715][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.05.30-19.44.26:715][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.05.30-19.44.26:715][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Engine.ini]
+[2022.05.30-19.44.26:715][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.05.30-19.44.26:715][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Engine.ini]
+[2022.05.30-19.44.26:715][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Engine.ini]
+[2022.05.30-19.44.26:715][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.05.30-19.44.26:715][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.05.30-19.44.26:715][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.05.30-19.44.26:715][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.05.30-19.44.26:715][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.05.30-19.44.26:715][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.05.30-19.44.26:715][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.05.30-19.44.26:715][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.05.30-19.44.26:715][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.05.30-19.44.26:715][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.05.30-19.44.26:715][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.05.30-19.44.26:715][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.05.30-19.44.26:715][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.05.30-19.44.26:715][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.05.30-19.44.26:716][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Engine.ini]
+[2022.05.30-19.44.26:716][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.05.30-19.44.26:716][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.05.30-19.44.26:716][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.05.30-19.44.26:716][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.05.30-19.44.26:716][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.05.30-19.44.26:716][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.05.30-19.44.26:716][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.05.30-19.44.26:716][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.05.30-19.44.26:716][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.05.30-19.44.26:716][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.05.30-19.44.26:716][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.05.30-19.44.26:716][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.05.30-19.44.26:716][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.05.30-19.44.26:716][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Engine.ini]
+[2022.05.30-19.44.26:716][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Engine.ini]
+[2022.05.30-19.44.26:722][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.30-19.44.26:722][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.05.30-19.44.26:722][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.05.30-19.44.26:722][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.30-19.44.26:722][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.05.30-19.44.26:722][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.30-19.44.26:722][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.05.30-19.44.26:722][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.05.30-19.44.26:722][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.05.30-19.44.26:722][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.05.30-19.44.26:722][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.05.30-19.44.26:722][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.05.30-19.44.26:723][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.05.30-19.44.26:724][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.05.30-19.44.26:725][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.05.30-19.44.26:726][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.05.30-19.44.26:726][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.05.30-19.44.26:726][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.05.30-19.44.26:726][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.05.30-19.44.26:726][  0]LogInit: Selected Device Profile: [Windows]
+[2022.05.30-19.44.26:726][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.05.30-19.44.26:726][  0]LogHAL: Display: Platform has ~ 16 GB [17112272896 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.05.30-19.44.26:727][  0]LogInit: Going up to parent DeviceProfile []
+[2022.05.30-19.44.26:727][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.05.30-19.44.26:727][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.05.30-19.44.26:728][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.05.30-19.44.26:729][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.05.30-19.44.26:730][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.05.30-19.44.26:730][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.05.30-19.44.26:730][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.05.30-19.44.26:730][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.05.30-19.44.26:730][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.05.30-19.44.26:730][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.05.30-19.44.26:730][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.05.30-19.44.26:730][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.05.30-19.44.26:730][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.30-19.44.26:730][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.05.30-19.44.26:730][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.05.30-19.44.26:730][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2022.05.30-19.44.26:730][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.05.30-19.44.26:730][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.05.30-19.44.26:730][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.05.30-19.44.26:730][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.05.30-19.44.26:730][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.05.30-19.44.26:730][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.05.30-19.44.26:730][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.05.30-19.44.26:730][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.05.30-19.44.26:731][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.05.30-19.44.26:731][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.05.30-19.44.26:731][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.05.30-19.44.26:731][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Config/Windows/Engine.ini]
+[2022.05.30-19.44.26:732][  0]LogInit: Computer: DESKTOP-CKA4IFT
+[2022.05.30-19.44.26:732][  0]LogInit: User: Hugga
+[2022.05.30-19.44.26:732][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.05.30-19.44.26:732][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.05.30-19.44.26:732][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2022.05.30-19.44.26:732][  0]LogMemory: Platform Memory Stats for Windows
+[2022.05.30-19.44.26:732][  0]LogMemory: Process Physical Memory: 114.68 MB used, 114.68 MB peak
+[2022.05.30-19.44.26:732][  0]LogMemory: Process Virtual Memory: 95.50 MB used, 95.50 MB peak
+[2022.05.30-19.44.26:732][  0]LogMemory: Physical Memory: 8826.21 MB used,  7493.32 MB free, 16319.54 MB total
+[2022.05.30-19.44.26:732][  0]LogMemory: Virtual Memory: 5138.94 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2022.05.30-19.44.26:745][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.05.30-19.44.27:005][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.05.30-19.44.27:009][  0]LogInit: Using OS detected language (sv-SE).
+[2022.05.30-19.44.27:009][  0]LogInit: Using OS detected locale (sv-SE).
+[2022.05.30-19.44.27:021][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
+[2022.05.30-19.44.27:239][  0]LogInit: Setting process to per monitor DPI aware
+[2022.05.30-19.44.27:296][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.05.30-19.44.27:296][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.05.30-19.44.27:515][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.05.30-19.44.27:515][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.05.30-19.44.27:515][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.05.30-19.44.27:515][  0]LogD3D11RHI: D3D11 adapters:
+[2022.05.30-19.44.27:684][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2022.05.30-19.44.27:684][  0]LogD3D11RHI:       8031/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2022.05.30-19.44.27:690][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.05.30-19.44.27:690][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.05.30-19.44.27:690][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.05.30-19.44.27:697][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.05.30-19.44.27:697][  0]LogD3D11RHI:     GPU DeviceId: 0x1f07 (for the marketing name, search the web for "GPU Device Id")
+[2022.05.30-19.44.27:697][  0]LogWindows: EnumDisplayDevices:
+[2022.05.30-19.44.27:697][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
+[2022.05.30-19.44.27:697][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:1)
+[2022.05.30-19.44.27:698][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2022.05.30-19.44.27:698][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2022.05.30-19.44.27:698][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.05.30-19.44.27:698][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2022.05.30-19.44.27:698][  0]LogD3D11RHI:   Driver Version: 466.63 (internal:27.21.14.6663, unified:466.63)
+[2022.05.30-19.44.27:698][  0]LogD3D11RHI:      Driver Date: 5-27-2021
+[2022.05.30-19.44.27:698][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2022.05.30-19.44.27:777][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.05.30-19.44.27:777][  0]LogD3D11RHI: Async texture creation enabled
+[2022.05.30-19.44.27:777][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.05.30-19.44.27:818][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.05.30-19.44.28:045][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.05.30-19.44.28:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.05.30-19.44.28:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.05.30-19.44.28:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.05.30-19.44.28:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.05.30-19.44.28:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.05.30-19.44.28:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.05.30-19.44.28:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.05.30-19.44.28:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.05.30-19.44.28:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.05.30-19.44.28:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.05.30-19.44.28:098][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.05.30-19.44.28:098][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.05.30-19.44.28:111][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.05.30-19.44.28:122][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.05.30-19.44.28:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.05.30-19.44.28:146][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.05.30-19.44.28:157][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.05.30-19.44.28:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.05.30-19.44.28:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.05.30-19.44.28:210][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.05.30-19.44.28:210][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.05.30-19.44.28:227][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.05.30-19.44.28:227][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.05.30-19.44.28:239][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.05.30-19.44.28:252][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.05.30-19.44.28:263][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.05.30-19.44.28:275][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.05.30-19.44.28:275][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.05.30-19.44.28:294][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.05.30-19.44.28:424][  0]LogShaderCompilers: Guid format shader working directory is -68 characters bigger than the processId version (../../../../../../Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Intermediate/Shaders/WorkingDirectory/21584/).
+[2022.05.30-19.44.28:424][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Hugga/AppData/Local/Temp/UnrealShaderWorkingDir/728ACB3840959DF3E77DB6A215238743/'.
+[2022.05.30-19.44.28:425][  0]LogXGEController: Cleaning working directory: C:/Users/Hugga/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.05.30-19.44.28:425][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.05.30-19.44.28:426][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.05.30-19.44.28:426][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.05.30-19.44.29:150][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.05.30-19.44.29:241][  0]LogDerivedDataCache: Loaded boot cache 0.09s 125MB C:/Users/Hugga/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.05.30-19.44.29:242][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Hugga/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2022.05.30-19.44.29:242][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.05.30-19.44.29:242][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.05.30-19.44.29:242][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.05.30-19.44.29:242][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.05.30-19.44.29:251][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.05.30-19.44.29:252][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.05.30-19.44.29:252][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.05.30-19.44.29:254][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Hugga/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.05.30-19.44.29:254][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.05.30-19.44.29:254][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.05.30-19.44.29:302][  0]LogSlate: Using FreeType 2.10.0
+[2022.05.30-19.44.29:304][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.05.30-19.44.29:338][  0]LogAssetRegistry: FAssetRegistry took 0.0060 seconds to start up
+[2022.05.30-19.44.29:582][  0]LogInit: Selected Device Profile: [Windows]
+[2022.05.30-19.44.29:752][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.05.30-19.44.29:752][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.05.30-19.44.29:752][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.05.30-19.44.29:752][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.05.30-19.44.29:753][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.05.30-19.44.29:783][  0]LogNetVersion: FPSGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1304077534)
+[2022.05.30-19.44.30:298][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002EB449C8380), frame # 0
+[2022.05.30-19.44.30:298][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002EB4492C7C0), frame # 0
+[2022.05.30-19.44.30:301][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002EB44959C00), frame # 0
+[2022.05.30-19.44.30:352][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.035699 seconds
+[2022.05.30-19.44.30:356][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2022.05.30-19.44.30:356][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2022.05.30-19.44.30:356][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.05.30-19.44.31:039][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.05.30-19.44.31:047][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.05.30-19.44.31:361][  0]SourceControl: Source control is disabled
+[2022.05.30-19.44.31:361][  0]SourceControl: Source control is disabled
+[2022.05.30-19.44.31:372][  0]SourceControl: Source control is disabled
+[2022.05.30-19.44.31:380][  0]SourceControl: Source control is disabled
+[2022.05.30-19.44.31:393][  0]SourceControl: Source control is disabled
+[2022.05.30-19.44.31:841][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.05.30-19.44.31:876][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.05.30-19.44.31:876][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.05.30-19.44.31:951][  0]LogOcInput: OculusInput pre-init called
+[2022.05.30-19.44.31:970][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2022.05.30-19.44.31:970][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2022.05.30-19.44.32:096][  0]LogEngine: Initializing Engine...
+[2022.05.30-19.44.32:098][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.05.30-19.44.32:098][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.05.30-19.44.32:100][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2022.05.30-19.44.32:214][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.05.30-19.44.32:252][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.05.30-19.44.32:252][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002EB472EFC00), frame # 0
+[2022.05.30-19.44.32:252][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002EB47364B80), frame # 0
+[2022.05.30-19.44.32:266][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.30-19.44.32:266][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.30-19.44.32:266][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.30-19.44.32:266][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.30-19.44.32:267][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.30-19.44.32:267][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.30-19.44.32:267][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.30-19.44.32:267][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.30-19.44.32:268][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.05.30-19.44.32:268][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.30-19.44.32:293][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.30-19.44.32:293][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.05.30-19.44.32:339][  0]LogAudioMixer: Display: Using Audio Device Hörlurar på headset (GameDAC Chat)
+[2022.05.30-19.44.32:340][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.30-19.44.32:343][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.30-19.44.32:343][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.30-19.44.32:345][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.30-19.44.32:347][  0]LogInit: FAudioDevice initialized.
+[2022.05.30-19.44.32:348][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.05.30-19.44.32:400][  0]LogDerivedDataCache: Saved boot cache 0.05s 125MB C:/Users/Hugga/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.05.30-19.44.32:405][  0]LogInit: Texture streaming: Enabled
+[2022.05.30-19.44.32:438][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.05.30-19.44.32:438][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={B9BB61BD-4150-FE7C-0E3A-C1B47611EE57}
+[2022.05.30-19.44.32:438][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.05.30-19.44.32:444][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.05.30-19.44.32:485][  0]LogInit: Transaction tracking system initialized
+[2022.05.30-19.44.32:532][  0]BlueprintLog: New page: Editor Load
+[2022.05.30-19.44.32:701][  0]LocalizationService: Localization service is disabled
+[2022.05.30-19.44.32:948][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Content/' took 0.00s
+[2022.05.30-19.44.32:948][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.05.30-19.44.32:948][  0]LogCook: Display: Mobile HDR setting 1
+[2022.05.30-19.44.33:357][  0]SourceControl: Source control is disabled
+[2022.05.30-19.44.33:358][  0]LogUnrealEdMisc: Loading editor; pre map load, took 9.896
+[2022.05.30-19.44.33:360][  0]LightingResults: New page: Lighting Build
+[2022.05.30-19.44.33:364][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.05.30-19.44.33:365][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.30-19.44.33:365][  0]MapCheck: New page: Map Check
+[2022.05.30-19.44.33:365][  0]LightingResults: New page: Lighting Build
+[2022.05.30-19.44.33:381][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002EB472EFC00), frame # 0
+[2022.05.30-19.44.33:381][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002EB47364B80), frame # 0
+[2022.05.30-19.44.33:382][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.05.30-19.44.33:482][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.05.30-19.44.33:482][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002EB4CFD8E00), frame # 0
+[2022.05.30-19.44.33:482][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002EB4D019080), frame # 0
+[2022.05.30-19.44.33:505][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.05.30-19.44.33:519][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.05.30-19.44.33:519][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.05.30-19.44.33:519][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,155ms to complete.
+[2022.05.30-19.44.33:519][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.161
+[2022.05.30-19.44.33:539][  0]LogUnrealEdMisc: Total Editor Startup Time, took 10.077
+[2022.05.30-19.44.33:682][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.30-19.44.33:687][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.30-19.44.33:693][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.30-19.44.33:699][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.30-19.44.33:713][  0]LogCollectionManager: Loaded 0 collections in 0.001253 seconds
+[2022.05.30-19.44.33:740][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/Collections/' took 0.00s
+[2022.05.30-19.44.33:740][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Content/Developers/Hugga/Collections/' took 0.00s
+[2022.05.30-19.44.33:740][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Content/Collections/' took 0.00s
+[2022.05.30-19.44.33:740][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3432 classes and 824 folders.
+[2022.05.30-19.44.33:749][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.05.30-19.44.33:859][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.05.30-19.44.33:867][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2022.05.30-19.44.34:007][  0]LogSlate: Took 0.000462 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.05.30-19.44.34:010][  0]LogSlate: Took 0.000409 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.05.30-19.44.34:017][  0]LogSlate: Took 0.000394 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.05.30-19.44.34:103][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2022.05.30-19.44.34:295][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.05.30-19.44.34:295][  0]LogLoad: (Engine Initialization) Total time: 10.83 seconds
+[2022.05.30-19.44.34:295][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.05.30-19.44.34:335][  0]LogAssetRegistry: Asset discovery search completed in 4.9998 seconds
+[2022.05.30-19.44.34:339][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000214 seconds (updated 0 objects)
+[2022.05.30-19.44.34:344][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.05.30-19.44.34:388][  0]LogSlate: Took 0.000518 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.05.30-19.44.37:415][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube15)
+[2022.05.30-19.46.59:847][622]LogSlate: Took 0.004038 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.05.30-19.47.41:048][355]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.05.30-19.47.41:071][355]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.05.30-19.47.41:112][355]LogSavePackage: Moving '../../../../../../Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/FirstPersonExampleMap8020A4944D82319BEC7A2990FB70B75B.tmp' to '../../../../../../Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Content/Maps/FirstPersonExampleMap.umap'
+[2022.05.30-19.47.41:199][355]LogSavePackage: Moving '../../../../../../Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/FirstPersonExampleMap_BuiltDataB89474864EEFE1456DF797BFC13B0B86.tmp' to '../../../../../../Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2022.05.30-19.47.41:211][355]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.30-19.47.41:211][355]LogContentValidation: Display: Validating World /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2022.05.30-19.47.41:211][355]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2022.05.30-19.47.49:327][290]LogMaterial: Display: Missing cached shader map for material M_Blackhole, compiling. 
+[2022.05.30-19.47.49:377][290]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2022.05.30-19.47.49:377][290]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2022.05.30-19.48.06:555][269]LogMaterial: Display: Material /Game/Blueprints/M_Blackhole.M_Blackhole needed to have new flag set bUsedWithStaticLighting !
+[2022.05.30-19.48.06:557][269]LogMaterial: Display: Missing cached shader map for material M_Blackhole, compiling. 
+[2022.05.30-19.48.06:585][270]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2022.05.30-19.48.06:585][270]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
+[2022.05.30-19.48.08:990][547]Cmd: TRANSACTION UNDO
+[2022.05.30-19.48.08:990][547]LogEditorTransaction: Undo Create Actors
+[2022.05.30-19.48.08:993][547]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_16' invalid (714 verts, 0 indices).
+[2022.05.30-19.48.08:993][547]LogPhysics: Warning: Attempt to build physics data for /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_16.BodySetup_18 when we are unable to.
+[2022.05.30-19.48.10:203][653]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2022.05.30-19.48.10:955][741]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2022.05.30-19.48.11:027][749]Cmd: TRANSACTION UNDO
+[2022.05.30-19.48.11:028][749]LogEditorTransaction: Undo Clicking on Actors
+[2022.05.30-19.48.13:932][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube15)
+[2022.05.30-19.48.34:738][703]LogSavePackage: Moving '../../../../../../Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Saved/M_Blackhole977E174D49BF5636267E6C9542386541.tmp' to '../../../../../../Users/Hugga/Documents/GitHub/UdemyFPSShooter/Kurs Spel/StealthGame_ProjectBase_4.25/StealthGame/Content/Blueprints/M_Blackhole.uasset'
+[2022.05.30-19.48.34:748][703]AssetCheck: New page: Asset Save: M_Blackhole
+[2022.05.30-19.48.34:748][703]LogContentValidation: Display: Validating Material /Game/Blueprints/M_Blackhole.M_Blackhole
+[2022.05.30-19.48.39:121][193]Cmd: TRANSACTION UNDO
+[2022.05.30-19.48.39:121][193]LogEditorTransaction: Undo Create Actors
+[2022.05.30-19.48.39:122][193]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_17' invalid (714 verts, 0 indices).
+[2022.05.30-19.48.39:122][193]LogPhysics: Warning: Attempt to build physics data for /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_17.BodySetup_19 when we are unable to.
